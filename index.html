@@ -1,0 +1,135 @@
+<!doctype html>
+<!--html5的网页声明，告诉浏览器开发的html文档遵循的开发标准-->
+<html lang="zh">
+<!--表示一个网页文档（范围)、网页主要语言为中文简体-->
+	<head>
+	<!--网页文档的标题-->
+		<meta charset="utf-8">
+		<!--告知浏览器此页面属于"utf-8"字符编码格式-->
+		<title>首页</title>
+		<!--网页文档的标题-->
+		<style>
+			<!--
+				.outermostContainer {
+									background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+									width: 100%;
+									height: 730px;
+									text-align: center;
+									}
+				/* 最外容器大小样式*/
+				.outermostContainer img {
+										text-align: center;
+										}	
+				/* 最外容器png图片背景*/
+				.howHard {
+						width: 340px;
+						height: 283px;
+						position: absolute;
+						top: -55px;
+						left: 10%
+						}
+				/* 有多难容器大小样式*/
+				.cleanLung {
+							width: 850px;
+							height: 283px;
+							position: absolute;
+							 top: 85px;
+							left: 30%;
+							}
+				/* 干净肺容器大小样式*/
+				.searchBar {
+							width: 80%;
+							height: 100px;
+							position: absolute;
+							top: 350px;
+							left: 12%;
+							right: 180px;
+							border-radius: 25px;
+							text-align: center;
+													}
+							/* 搜索框容器大小样式*/
+				input {
+						width: 90%;
+						height: 80px;
+						border-radius: 25px;
+						text-align: center;
+						margin-bottom: 15px;   
+					}
+					/* 搜索框样式位置*/
+						.navigation {
+								border-top: 8px solid #0B0B0B;
+								position: absolute;
+								 background: -webkit-linear-gradient(top,#282828,#131313,#141414,#171717,#1b1b1b,#222222,#2a2a2a,#282828,#2b2b2b,#2e2e2e,#303030);
+								width: 90%;
+								height: 70px;
+								border-radius: 35px;
+								top: 620px;
+								left: 5%;
+								right: 5%;
+								text-align: center;
+
+														}
+					 /*页眉样式位置*/
+						ul {
+							list-style-type: none;
+							position: absolute;
+							top: -20px;
+							left: -1%;
+							}
+						/* 链接样式*/
+						li{
+							float:left;
+							/*position:fixed;*/
+						}
+			  			/* 导航水平*/
+						a{
+							display: block;
+							padding-top: 19px;
+							padding-left: 30px;
+							text-decoration: none;
+							font-family: "方正粗黑宋简体";
+							color: rgba(255,255,255,1.00);
+							font-size: 150%;
+							text-shadow: 2px 2px #000000;		
+								}
+						   /* 链接位置，字体样式*/
+			-->
+		</style>
+</head>
+
+	<body>
+		<div class="outermostContainer">
+		<!--网页的最大容器-->
+			<img src="png_jpg/背景png.png" width="1288" height="730" alt=""/> 
+			<div class="howHard">
+			<!--有多难容器-->
+				<img src="png_jpg/文字有多难.png" width="340" height="283" alt=""/> 
+			</div>
+			<div class="cleanLung">
+			<!--干净肺容器-->
+				<img src="png_jpg/文字拥有一颗干净的肺.png" width="850" height="283" alt=""/> 
+			</div>
+			<div class="searchBar">
+			<!--搜索容器-->
+				<form>
+					<input type="search" placeholder="Search for more">
+				  <input type="submit" value="search">
+				</form>
+			</div>
+			<div class="navigation">
+			<!--导航容器-->
+					<nav>
+						<ul>
+							<li><a href="" title="背景简介">背景简介</a></li>
+						  <li><a href="" title="共产党成立的背景">全球吸烟对比</a></li>
+							<li><a href="" title="中共关系变化">烟草行业的发展</a></li>
+							<li><a href="" title="战争盘点">中国人民的吸烟现状</a></li>
+							<li><a href="" title="战争盘点">吸烟的危害板块</a></li>
+							<li><a href="" title="战争盘点">减少吸烟的手段</a></li>
+							<li><a href="" title="战争盘点">我们</a></li>
+						</ul>
+					</nav>
+			</div>
+		</div>
+	</body>
+</html>
